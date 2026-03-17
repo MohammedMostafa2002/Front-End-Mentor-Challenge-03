@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add your GitHub link here]](https://github.com/MohammedMostafa2002/Front-End-Mentor-Challenge-03)
-- Live Site URL: [[Add your GitHub Pages link here]](https://mohammedmostafa2002.github.io/Front-End-Mentor-Challenge-03/)
+- Solution URL: [[My GitHub link]](https://github.com/MohammedMostafa2002/Front-End-Mentor-Challenge-03)
+- Live Site URL: [[Link for Live Site on GitHub]](https://mohammedmostafa2002.github.io/Front-End-Mentor-Challenge-03/)
 
 ## My process
 
