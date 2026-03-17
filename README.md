@@ -3,7 +3,6 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -20,14 +19,10 @@
 Users should be able to:
 - View the optimal layout for the site depending on their device's screen size.
 
-### Screenshot
-
-![Solution Screenshot]
-
 ### Links
 
-- Solution URL: [Add your GitHub link here]
-- Live Site URL: [Add your GitHub Pages link here]
+- Solution URL: [[Add your GitHub link here]](https://github.com/MohammedMostafa2002/Front-End-Mentor-Challenge-03)
+- Live Site URL: [[Add your GitHub Pages link here]](https://mohammedmostafa2002.github.io/Front-End-Mentor-Challenge-03/)
 
 ## My process
 
