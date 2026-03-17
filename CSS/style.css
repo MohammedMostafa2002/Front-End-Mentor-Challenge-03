@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+
+
+}
+
+
+.container {
+
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(8, 70px);
+    text-align: left;
+    gap: 10px;
+    justify-content: center;
+
+
+}
+
+
+.header {
+
+    margin: 100px auto 50px auto;
+
+
+}
+
+
+.header .first-title {
+
+    font-weight: 200;
+    margin-bottom: -20px;
+    color: hsl(234, 12%, 34%);
+}
+
+
+.header .second-title {
+
+    font-weight: 600;
+    font-size: 2em;
+    color: hsl(234, 12%, 34%);
+
+}
+
+
+
+.header .content-desc {
+
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+}
+
+
+.item {
+
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 50px 30px 50px;
+    margin: 15px;
+    box-shadow: 0px 10px 10px 0px hsla(234, 12%, 34%, 0.126);
+    position: relative;
+
+
+}
+
+.item-img img {
+
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+
+.item.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    grid-column: 1/5;
+    grid-row: 3/7;
+
+
+}
+
+.item.teambuilder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    grid-column: 5/9;
+    grid-row: 1/5;
+}
+
+.item.calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    grid-column: 9/13;
+    grid-row: 3/7;
+}
+
+.item.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    grid-area: 5/5/9/9;
+}
+
+.item h3 {
+
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-top: 5px;
+
+}
+
+.item p {
+
+    margin-top: -10px;
+    color: hsl(212, 6%, 44%);
+
+}
+
+/* for mobile and small devices */
+
+@media (max-width:375px) {
+
+    .container {
+
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 70px);
+        grid-template-rows: repeat(16, 70px);
+        text-align: left;
+        gap: 10px;
+        justify-content: center;
+
+
+    }
+
+
+    .item.supervisor {
+        border-top: 5px solid hsl(180, 62%, 55%);
+        grid-column: 1/5;
+        grid-row: 1/5;
+
+
+    }
+
+    .item.teambuilder {
+        border-top: 5px solid hsl(0, 78%, 62%);
+        grid-column: 1/5;
+        grid-row: 5/9;
+    }
+
+    .item.calculator {
+        border-top: 5px solid hsl(212, 86%, 64%);
+        grid-area: 13/1/17/5;
+    }
+
+    .item.karma {
+        border-top: 5px solid hsl(34, 97%, 64%);
+        grid-column: 1/5;
+        grid-row: 9/13;
+    }
+
+    .header .first-title {
+
+        font-size: 1.5em;
+    }
+
+
+    .header .second-title {
+        font-size: 1.5em;
+
+    }
+
+
+    .header .content-desc {
+
+        font-size: 17px;
+    }
+
+}
